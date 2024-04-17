@@ -51,8 +51,11 @@
 		045C74D92BD01DC900DDA0EB /* Mapy */ = {
 			isa = PBXGroup;
 			children = (
-				045C74DA2BD01DC900DDA0EB /* MapyApp.swift */,
-				045C74DC2BD01DC900DDA0EB /* ContentView.swift */,
+				045C74E82BD01DEB00DDA0EB /* App */,
+				045C74EC2BD01E0700DDA0EB /* Model */,
+				045C74EA2BD01DF900DDA0EB /* View */,
+				045C74EB2BD01E0000DDA0EB /* ViewModel */,
+				045C74E92BD01DF200DDA0EB /* Service */,
 				045C74DE2BD01DCA00DDA0EB /* Assets.xcassets */,
 				045C74E02BD01DCA00DDA0EB /* Preview Content */,
 			);
@@ -65,6 +68,43 @@
 				045C74E12BD01DCA00DDA0EB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		045C74E82BD01DEB00DDA0EB /* App */ = {
+			isa = PBXGroup;
+			children = (
+				045C74DA2BD01DC900DDA0EB /* MapyApp.swift */,
+				045C74DC2BD01DC900DDA0EB /* ContentView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		045C74E92BD01DF200DDA0EB /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		045C74EA2BD01DF900DDA0EB /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		045C74EB2BD01E0000DDA0EB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		045C74EC2BD01E0700DDA0EB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
