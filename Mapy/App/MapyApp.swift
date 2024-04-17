@@ -9,11 +9,11 @@ import SwiftUI
 
 @main
 struct MapyApp: App {
-    private var vm = LocationsViewModel()
+   @StateObject private var vm = LocationsViewModel()
     var body: some Scene {
         WindowGroup {
             ContentView()
-                .environment(vm)
+                .environmentObject(vm)
         }
     }
 }
