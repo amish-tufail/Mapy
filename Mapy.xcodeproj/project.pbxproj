@@ -16,6 +16,7 @@
 		045C74F22BD0205800DDA0EB /* LocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045C74F12BD0205800DDA0EB /* LocationsView.swift */; };
 		045C74F62BD021E000DDA0EB /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045C74F52BD021E000DDA0EB /* LocationViewModel.swift */; };
 		045C74F82BD02A2A00DDA0EB /* LocationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045C74F72BD02A2A00DDA0EB /* LocationsListView.swift */; };
+		045C74FA2BD033FE00DDA0EB /* LocationPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045C74F92BD033FE00DDA0EB /* LocationPreviewView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		045C74F12BD0205800DDA0EB /* LocationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsView.swift; sourceTree = "<group>"; };
 		045C74F52BD021E000DDA0EB /* LocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewModel.swift; sourceTree = "<group>"; };
 		045C74F72BD02A2A00DDA0EB /* LocationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsListView.swift; sourceTree = "<group>"; };
+		045C74F92BD033FE00DDA0EB /* LocationPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPreviewView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				045C74F12BD0205800DDA0EB /* LocationsView.swift */,
+				045C74F92BD033FE00DDA0EB /* LocationPreviewView.swift */,
 				045C74F72BD02A2A00DDA0EB /* LocationsListView.swift */,
 			);
 			name = View;
@@ -194,6 +197,7 @@
 			files = (
 				045C74DD2BD01DC900DDA0EB /* ContentView.swift in Sources */,
 				045C74F82BD02A2A00DDA0EB /* LocationsListView.swift in Sources */,
+				045C74FA2BD033FE00DDA0EB /* LocationPreviewView.swift in Sources */,
 				045C74F62BD021E000DDA0EB /* LocationViewModel.swift in Sources */,
 				045C74DB2BD01DC900DDA0EB /* MapyApp.swift in Sources */,
 				045C74F22BD0205800DDA0EB /* LocationsView.swift in Sources */,

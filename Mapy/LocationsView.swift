@@ -17,6 +17,16 @@ struct LocationsView: View {
             VStack(alignment: .center, spacing: 0.0) {
                 header
                 Spacer()
+                ZStack {
+                    ForEach(viewModel.locations) { location in
+                        if location == viewModel.mapLocation {
+                            LocationPreviewView(location: location)
+                                .shadow(color: .black.opacity(0.3), radius: 20.0)
+                                .padding()
+                                .transition(.asymmetric(insertion: .move(edge: .trailing), removal: .move(edge: .leading)))
+                        }
+                    }
+                }
             }
         }
     }
