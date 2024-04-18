@@ -10,12 +10,15 @@ import MapKit
 
 struct LocationsView: View {
     @EnvironmentObject var viewModel: LocationsViewModel
+    let maxWidthForIpad: CGFloat = 700.0
     var body: some View {
         ZStack {
             mapLayer
             VStack(alignment: .center, spacing: 0.0) {
                 header
+                    .frame(maxWidth: maxWidthForIpad)
                 Spacer()
+                locationsPreviewStack
             }
         }
         .sheet(item: $viewModel.sheetLocation) { location in
@@ -76,6 +79,8 @@ extension LocationsView {
                     LocationPreviewView(location: location)
                         .shadow(color: .black.opacity(0.3), radius: 20.0)
                         .padding()
+                        .frame(maxWidth: maxWidthForIpad)
+                        .frame(maxWidth: .infinity, alignment: .center)
                         .transition(.asymmetric(insertion: .move(edge: .trailing), removal: .move(edge: .leading)))
                 }
             }
