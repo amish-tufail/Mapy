@@ -18,6 +18,9 @@ struct LocationsView: View {
                 Spacer()
             }
         }
+        .sheet(item: $viewModel.sheetLocation) { location in
+            LocationDetailView(location: location)
+        }
     }
 }
 
